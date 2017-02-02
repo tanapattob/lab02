@@ -1,16 +1,86 @@
-<html>
-<head>
-<style>
-body {
-    background-color: lightblue;
+body { 
+   background-color: #FFFFCC;
+   }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#FFCCCC;
+    width: 100%;
+
 }
-</style>
-</head>
-<body>
 
-<h1>Hello World!</h1>
+li {
+    float: left;
+    width: 20%;
+}
 
-<p>This page has a light blue background color!</p>
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
-</body>
-</html>
+li a:hover:not(.active) {
+    background-color: #000000;
+}
+
+.active {
+    background-color: #000000;
+}
+
+TABLE {
+  border-collapse: collapse;
+  width: 90%;
+  table-layout:fixed;
+  border:2px;
+   }
+TD {
+    background-color: #FFCCFF;
+    text-align: center;
+    border:2px solid #FF4646;
+    height: 30px;
+   }
+ TH{
+    background-color: #FF33FF;
+    text-align: center;
+    border:2px solid #FF4646;
+    height: 30px;
+   }
+#color {
+    background-color:#FF9999;
+   }
+h {
+    font-family: Tekton Pro Ext;
+    font-size: 60px;
+    font-weight: 600;
+	color: #CC99CC;
+    text-align: center;
+   }
+h1 {
+    font-family: Times New Roman;
+    font-size: 60px;
+    font-weight: 600;
+	color: #FF9999;
+    text-align: center;
+   }
+h2 {
+    font-family:Tekton Pro Ext;
+    font-size: 16px;
+    font-weight: 600;
+	color: #000000;
+    text-align: center;
+   }
+h3 {
+    font-family:Arial Unicode MS;
+    font-size: 18px;
+    font-weight: 600;
+	color: #000000;
+    text-align: center;
+   }
+ photo {
+  float: center;
+}
